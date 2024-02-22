@@ -9,16 +9,22 @@ FROM [US  E-commerce records 2020]
 --**In The Beginning 
 -- SUM Total (Sales - Quantity - Profit )
 
-SELECT STR(SUM(Sales)) AS TotalSales, STR(SUM (Quantity)) AS TotalQuantitys, STR(SUM (Profit)) AS TotalProfit
+SELECT STR(SUM(Sales)) AS TotalSales
 FROM [US  E-commerce records 2020]
 
--- Top Ordared City 
+SELECT STR(SUM (Quantity)) AS TotalQuantitys
+FROM [US  E-commerce records 2020]
+
+SELECT STR(SUM (Profit)) AS TotalProfit
+FROM [US  E-commerce records 2020]
+
+-- Top City By Ordared 
 
 SELECT City, Quantity, Sales
 FROM [US  E-commerce records 2020]
 ORDER BY Quantity DESC 
 
--- Top Ordared State
+-- Top State By Ordared 
 
 SELECT State, Quantity, Sales
 FROM [US  E-commerce records 2020]
