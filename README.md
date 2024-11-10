@@ -56,3 +56,5 @@ README.md: Documentation for the project.
 
 💡 Conclusion
 This dashboard provides valuable insights into the sales performance of an e-commerce platform, helping stakeholders make data-driven decisions to optimize their business strategies.
+
+![Dashboard](https://github.com/user-attachments/assets/7968f238-b4a1-4b4c-82da-741e8ba9a1e9)
